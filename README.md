@@ -43,7 +43,8 @@ The project helps understand:
 ---
 
 # Project Structure
-'''
+
+```text
 EFCoreDemo
 │
 ├── Controllers
@@ -65,7 +66,7 @@ EFCoreDemo
 ├── Program.cs
 │
 └── EFCoreDemo.csproj
-'''
+```
 ---
 
 # Entity Framework Core Workflow
@@ -134,15 +135,15 @@ Properties:
 
 ## Create Migration
 
-dotnet ef migrations add InitialCreate
+```text dotnet ef migrations add InitialCreate```
 
 ## Update Database
 
-dotnet ef database update
+```textdotnet ef database update```text
 
 ## Run Project
 
-dotnet run
+```textdotnet run```text
 
 ---
 
